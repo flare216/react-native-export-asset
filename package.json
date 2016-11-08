@@ -1,0 +1,29 @@
+{
+  "name": "react-native-export-asset",
+  "version": "1.0.0",
+  "description": "react-native plugin for compress photo and video",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flare216/react-native-export-asset.git"
+  },
+  "keywords": [
+    "react-native",
+    "compress"
+  ],
+  "author": "flare216",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/flare216/react-native-export-asset/issues"
+  },
+  "homepage": "https://github.com/flare216/react-native-export-asset#readme",
+  "rnpm": {
+    "android": {
+      "packageName": "com.heyao216.react_native_export_asset"
+    },
+    "commands": {"postlink": "node node_modules/react-native-export-asset/scripts/postlink"}
+  }
+}
