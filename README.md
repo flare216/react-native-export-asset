@@ -1,10 +1,10 @@
-## a react-native plugin for compress photo or video  
-### install  
+# a react-native plugin for compress photo or video  
+## install  
 `npm install react-native-export-asset --save`  
 link dependency:  
 `react-native link react-native-export-asset`  
 
-### usage  
+## usage  
     import { NativeModules } from 'react-native';  
     // compress photo  
     var compressOptions = {maxWidth: 1024, maxHeight: 1024, quality: 0.8};
