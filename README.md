@@ -7,8 +7,9 @@ link dependency:
 ### usage  
     import { NativeModules } from 'react-native';  
     // compress photo  
-    const compressOptions = {maxWidth: 1024, maxHeight: 1024, quality: 0.8};
-    NativeModules.AssetExport.exportPhoto(Object.assign({file}, compressOptions), (path, code) => {
+    var compressOptions = {maxWidth: 1024, maxHeight: 1024, quality: 0.8};
+    var opt = {file: 'file path to the photo'};
+    NativeModules.AssetExport.exportPhoto(Object.assign(opt, compressOptions), (path, code) => {
         if(code > 0){
             console.log(path);// the path is the compressed photo path
         }
